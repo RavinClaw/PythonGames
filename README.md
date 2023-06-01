@@ -12,6 +12,12 @@ This game was based of the idea of how many big titles show hacking to be just c
 ### Developers
 - [Ravin](https://github.com/RavinClaw)
 
+### Links
+- [Github Code](https://github.com/RavinClaw/PythonGames/blob/main/lockable.py)
+Use this for a regular download
+- [Raw Github Code](https://raw.githubusercontent.com/RavinClaw/PythonGames/main/lockable.py)
+Use this for console downloads
+
 # Want a playthtough of the games or Live Coding?
 - [My Youtube](https://youtube.com/@RavinClaw)
 - [My Twitch](https://twitch.tv/theunderbringer)
