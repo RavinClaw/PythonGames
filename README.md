@@ -14,4 +14,4 @@ This game was based of the idea of how many big titles show hacking to be just c
 
 # Want a playthtough of the games or Live Coding?
 [My youtube](https://youtube.com/@RavinClaw)
-[My Twitch](https://youtube.com/theunderbringer)
+[My Twitch](https://twitch.tv/theunderbringer)
