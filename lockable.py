@@ -2,8 +2,6 @@ import os, sys
 import random, string, math
 import socket, select, selectors, pickle
 import json, csv
-from colorama import Fore as f
-from colorama import Back as b
 import datetime
 import asyncio, time, timeit
 import uuid, hashlib, base64
@@ -66,7 +64,7 @@ while running:
             running = False
         if not GameWillEnd:
             PlayerMouse = pygame.mouse.get_pos()
-            if PlayerMouse[0] <= Lockable.x + 32 or PlayerMouse[0] >= Lockable.x or PlayerMouse[1] <= Lockable.y + 32 or PlayerMouse[1] >= Lockable.y:
+            if PlayerMouse[0] <= Lockable.x + 32 and PlayerMouse[0] >= Lockable.x and PlayerMouse[1] <= Lockable.y + 32 and PlayerMouse[1] >= Lockable.y:
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     pygame.draw.rect(screen, (255, 0, 0), Lockable)
                     lockables += 1
